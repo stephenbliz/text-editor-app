@@ -1,0 +1,33 @@
+
+.toolWrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.btn{
+    text-align: center;
+    /* text-transform:lowercase; */
+    width: fit-content;
+    background-color: gray;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 800px){
+    .editable{
+        width: 90%!important;
+        
+    }
+    .toolWrapper{
+        width: 90%;
+        
+    }
+}
